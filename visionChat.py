@@ -16,8 +16,8 @@ def main():
         chat = input("User: ")
 
         #Getting the image paths
-        IMAGE_PATH1 = "C:/Users/ssamadda/OneDrive - Microsoft/Documents/Work/Workshops/AOAI/Demo_Marel/comparison.png"
-        IMAGE_PATH2 = "C:/Users/ssamadda/OneDrive - Microsoft/Documents/Work/Workshops/AOAI/Demo_Marel/selfie.jpg"
+        IMAGE_PATH1 = ""
+        IMAGE_PATH2 = ""
         encoded_image1 = base64.b64encode(open(IMAGE_PATH1, 'rb').read()).decode('ascii')
         encoded_image2 = base64.b64encode(open(IMAGE_PATH2, 'rb').read()).decode('ascii')
                
