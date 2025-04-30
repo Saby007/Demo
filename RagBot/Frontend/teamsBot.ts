@@ -16,7 +16,7 @@ export class TeamsBot extends TeamsActivityHandler {
       try {
         // Make POST request to the backend
         const response = await axios.post(
-          "https://demowebappbackend-e9asb4gtbrb5f5az.eastus2-01.azurewebsites.net/process",
+          "https://<fqdn of the web app>/process",
           {
             user_query: userQuery,
           }
